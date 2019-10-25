@@ -1,0 +1,64 @@
+.profile-top {
+	display: flex;
+}
+.change-picture {
+	height: 100px;
+	position: relative;
+}
+.change-picture .btn-change-picture i {
+	display: none;
+	font-size: 30px;
+	color: #3c8dbc;
+}
+.change-picture .btn-change-picture:hover i {
+	display: block;
+}
+.change-picture .btn-change-picture:hover {
+	background: rgba(0, 0, 0, 0.09);
+}
+.change-picture .btn-change-picture i,
+.change-picture .btn-change-picture input {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.change-picture .btn-change-picture input {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	border-radius: 50%;
+	padding: 40px 0;
+}
+.change-picture .btn-change-picture {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: calc(50% - 50px);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.profile-user-img {
+    width: 100%;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+/** Upload form */
+#change-picture .upload-form .btn-upload input {
+	height: 100px;
+	width: 100%;
+	opacity: 0;
+}
+#change-picture .upload-form .btn-upload span {
+	font-size: 16px;
+	line-height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#change-picture .upload-form .btn-upload:hover {
+	background: #f6f7f9;
+}

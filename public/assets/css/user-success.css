@@ -1,0 +1,12 @@
+.login-box-body {
+	text-align: center !important;
+}
+p {
+	font-size: 16px;
+	color: #666666;
+	line-height: 22px;
+	padding-top: 40px;
+}
+.login-box {
+    width: 410px !important;
+}

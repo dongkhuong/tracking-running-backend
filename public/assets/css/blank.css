@@ -1,0 +1,51 @@
+body {
+	font-family: Roboto;
+	height: auto;
+	position: relative !important;
+}
+.btn-primary {
+	background-color: #0074CD;
+}
+.login-box {
+	margin-top: 40px;
+}
+.login-box-body {
+	border-radius: 10px;
+	padding: 30px 34px;
+}
+.snp-input i {
+	padding: 10px;
+	position: absolute;
+}
+.snp-input input {
+	padding-left: 35px;
+}
+.login-logo a img {
+	width: 200px;
+}
+.login-logo a span {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	vertical-align: middle;
+}
+.form-group {
+	margin-bottom: 10px;
+}
+.help-block {
+	margin: 5px;
+	margin-left: 0;
+}
+.login-page{
+	background: #2196F3;
+}
+button:focus, button:hover {
+	outline: none;
+	background-color: #127ED3;
+}
+a:focus, a:hover {
+	color: #127ED3;
+}
+.clear {
+	clear: both;
+}

@@ -1,0 +1,16 @@
+/node_modules
+/public/hot
+/public/storage
+/public/js/ckfinder
+/storage/*.key
+/vendor
+data/*
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+docker-compose.yml
+.idea
+/backend-master
