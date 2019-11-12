@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers\Api;
+
+use App\Http\Models\Like;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
+class LikeController extends MainController
+{
+    public function addLike(Request $request) 
+    {
+        $like = new Like;
+        $like->user_id = cuser()->id;
+        $like->post_id = "8ca3e8e1ad4f465a8ae758d58e9d9862";
+        $like->save();
+    }
+}
