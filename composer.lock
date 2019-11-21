@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7abfc62eb006a1a3fcd8c110a3030bd",
+    "content-hash": "24a59ac72cfb454b2f545e675b359238",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -91,24 +91,23 @@
         },
         {
             "name": "ckfinder/ckfinder-laravel-package",
-            "version": "v3.5.1",
+            "version": "v3.5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckfinder/ckfinder-laravel-package.git",
-                "reference": "a2a67b40ca2bedea4cff72c39335e7f2a1dd59c3"
+                "reference": "604daeb0965b8cb8bb78c579d37b938b8e38ac8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckfinder/ckfinder-laravel-package/zipball/a2a67b40ca2bedea4cff72c39335e7f2a1dd59c3",
-                "reference": "a2a67b40ca2bedea4cff72c39335e7f2a1dd59c3",
+                "url": "https://api.github.com/repos/ckfinder/ckfinder-laravel-package/zipball/604daeb0965b8cb8bb78c579d37b938b8e38ac8b",
+                "reference": "604daeb0965b8cb8bb78c579d37b938b8e38ac8b",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "^5.5",
+                "laravel/framework": "^5.5|~6.0",
                 "league/flysystem": "^1.0.45",
                 "league/flysystem-aws-s3-v3": "^1.0.13",
                 "league/flysystem-cached-adapter": "^1.0.6",
-                "monolog/monolog": "~1.4,>=1.4.1",
                 "php": ">=5.6.0",
                 "pimple/pimple": "~3.0",
                 "spatie/flysystem-dropbox": "^1.0"
@@ -132,7 +131,7 @@
                 "MIT"
             ],
             "description": "CKFinder 3 package for Laravel",
-            "time": "2019-09-06T08:55:03+00:00"
+            "time": "2019-11-18T13:21:59+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
