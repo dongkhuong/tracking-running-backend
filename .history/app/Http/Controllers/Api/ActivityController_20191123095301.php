@@ -33,11 +33,10 @@ class ActivityController extends MainController
         ]);
     }
 
-    public function store(ActivityRequest $request)
+    public function store(Request $request)
     {
         $activity = $this->activityService->create($request);
         return $this->jsonOut([
-            'business_code' => 1,
             'data' => $activity
         ]);
     }
